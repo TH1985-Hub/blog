@@ -8,7 +8,8 @@ function createContainer(){
             
             UI.createElement('nav', {class: "nav"}, [
                 UI.createElement('a', {class: 'nav_list w-200px transition-5 td-none ', href: 'registration.html'}, 'Sign Up'),
-                UI.createElement('a', {class: 'nav_list w-150px transition-5 td-none ', href: 'index.html'}, 'Log  In')
+                UI.createElement('a', {class: 'nav_list w-150px transition-5 td-none ', href: 'index.html'}, 'Log  In'),
+                UI.createElement('a', {class: 'nav_list w-150px transition-5 td-none', href: 'create-page.html'}, 'Create Blog')
             ])  
         ]),
            
@@ -67,6 +68,10 @@ function createContainer(){
     
 
     UI.render(container, 'body');
+
+    function getPosts(){
+        return JSON.parse(localStorage.getItem('posts')) || [];
+    }
 
 }
 

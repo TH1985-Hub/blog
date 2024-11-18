@@ -33,11 +33,11 @@ html{
 .nav_list{
     font-size: var(--font-size-25);
     color: var(--primary-color);
-    margin-right: var(--margin-20);
+    margin-right: var(--margin-60);
     background-color: var(--bg-primary-color);
-     padding: 0 var(--spacing-3); 
-     box-shadow: var(--box-shadow-1);
-     box-shadow: var(--box-shadow-4);  
+    padding: 0 var(--spacing-1);  
+    box-shadow: var(--box-shadow-1);
+    box-shadow: var(--box-shadow-4);  
 }
 
 
@@ -96,6 +96,57 @@ html{
 .login-container {
     flex: 1; 
 }
+
+.label_container{
+    width: 90%;
+   margin-bottom: 60px;
+   box-shadow: var(--box-shadow-1);
+   padding: 20px;
+   text-align: center;
+}
+
+.main_box{
+    width: 90%;  
+    margin-top: var(--margin-60);
+    height: 90%;
+    padding: 20px;
+    box-shadow: var(--box-shadow-2);
+    margin-left: var(--margin-40);
+    border-radius: var(--box-shadow-1);
+   
+
+}
+
+.form_container{
+    width: 90%;
+    padding: 20px;
+    box-shadow: var(--box-shadow-1); 
+}
+.form_container_input{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+.submit-btn-label{
+    width: 200px;
+    padding: var(--spacing-1) ;
+    background-color: var(--primary-color);
+    color: var(--color-white);
+    box-shadow: var(--box-shadow-1);
+    border: 0;    
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.radio{
+    padding: 20px;
+    margin-left: var(--margin-20);
+}
+
 
 
 .main-container{

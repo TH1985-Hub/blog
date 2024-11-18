@@ -3,7 +3,9 @@ function createRegisterationContainer() {
         UI.createElement('header', { class: 'header w-90 h-100px d-flex  ai-center js-flex-end' }, [
             UI.createElement('a', { class: 'nav_list td-none transition-5', href: 'home.html' }, 'Home'),
             UI.createElement('a', { class: 'nav_list td-none transition-5', href: 'index.html' }, 'Log In')
-        ]),
+            ]),
+           
+        
         UI.createElement('form', { class: 'formBox_container w-400px h-400px d-flex ai-center fd-column ta-center relative' }, [
             UI.createElement('input', { type: 'text', placeholder: 'First Name', class: 'formBox_container_input w-300px h-40px' }),
             UI.createElement('input', { type: 'text', placeholder: 'Last Name', class: 'formBox_container_input  w-300px h-40px' }),
@@ -29,6 +31,8 @@ function createRegisterationContainer() {
                 UI.createElement('button', { type: 'submit', class: 'submit-btn w-100px h-30px' }, 'Submit')
             ])
         ])
+        
+
     ]);
 
     UI.render(container, 'body');
